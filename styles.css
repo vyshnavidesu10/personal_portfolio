@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: url('C:/Users/VYSHU/OneDrive/Desktop/AWT/pngtree-memphis-playful-abstract-portfolio-pink-picture-image_1347362.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {s
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.intro-content {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.name-highlight {
+  color: #f39c12;
+}
+
+.role-highlight {
+  color: #e74c3c;
+}
+
+.about-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  background-color: #555;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.social-icons a:hover {
+  color: #f39c12;
+}
+
+.avatar img {
+  width: 300px;
+  background-color: #f1c40f;
+  padding: 10px;
+}
+
+.avatar {
+  margin-left: 50px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  color: rgb(17, 15, 15);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+.contact,
+.email {
+  font-size: 18px;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.contact {
+  color: #000;
+  font-weight: bold;
+  background-color: #e3f2fd;
+  border-left: 5px solid #007bff;
+}
+.email {
+  color: #007bff;
+  background-color: #fdf9e8;
+  border-left: 5px solid #f39c12;
+}
